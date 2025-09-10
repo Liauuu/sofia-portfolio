@@ -1,4 +1,4 @@
-![Uploading preview.png…]()
+![Uploading preview.jpg…]()
 
 
 # Sofia Bennett Portfolio
