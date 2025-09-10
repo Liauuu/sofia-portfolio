@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1.0">
+  <title>Sofia Bennett Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ 
+  <div id="overlay"></div>
+
+ 
+  <section class="intro">
+    <div class="profile-pic">
+      <img src="images/sofia.jpg" alt="Sofia Bennett" />
+    </div>
+    <div class="intro-text">
+      <h1>Hi, I'm Sofia Bennett</h1>
+      <p>
+        I'm a UI/UX designer passionate about creating minimal, intuitive,
+        and meaningful experiences.<br />
+        Take a look at my gallery.
+      </p>
+    </div>
+   
+    <div class="close-intro" aria-label="Close intro" role="button">&times;</div>
+  </section>
+
+ 
+  <section class="wall">
+    <div class="wall-item"
+         data-title="Design Philosophy"
+         data-desc="My design philosophy is rooted in simplicity and empathy. I aim to create experiences that feel natural and intuitive, balancing aesthetics with usability. Every design decision should make life easier for the user.">
+      Design Philosophy
+    </div>
+
+    <div class="wall-item"
+         data-title="Skills and Design Process"
+         data-desc="I specialize in UI/UX design with skills in wireframing, prototyping, and usability testing. My process follows research, ideation, iteration, and refinement—always guided by user needs.">
+      Skills and Design Process
+    </div>
+
+    <div class="wall-item"
+         data-title="Contact"
+         data-desc="Feel free to reach out for collaborations or opportunities. I'm always open to discussing creative ideas.">
+      Contact
+    </div>
+  </section>
+
+
+  <section class="wall wall-right">
+    <div class="wall-item"
+         data-title="Design Example 1"
+         data-desc="This is the description of Design Example 1.">
+      <img src="images/design1.jpg" alt="Design Example 1" />
+    </div>
+
+    <div class="wall-item"
+         data-title="Design Example 2"
+         data-desc="This is the description of Design Example 2.">
+      <img src="images/design2.jpg" alt="Design Example 2" />
+    </div>
+
+    <div class="wall-item"
+         data-title="Design Example 3"
+         data-desc="This is the description of Design Example 3.">
+      <img src="images/design3.jpg" alt="Design Example 3" />
+    </div>
+  </section>
+
+  
+  <div id="modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-content">
+      <button class="nav prev" aria-label="Previous">‹</button>
+      <button class="nav next" aria-label="Next">›</button>
+      <span class="close-btn" aria-label="Close modal" role="button">&times;</span>
+      <h1 id="modal-title"></h1>
+      <img id="modal-img" alt="" />
+      <p id="modal-desc"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
