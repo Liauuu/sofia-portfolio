@@ -1,4 +1,5 @@
-![Uploading preview.jpg…]()
+![Preview](https://raw.githubusercontent.com/Liauuu/sofia-portfolio/main/images/preview.jpg)
+
 
 
 # Sofia Bennett Portfolio
